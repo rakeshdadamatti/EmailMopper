@@ -91,6 +91,9 @@ python -m emailmopper triage --dry-run
 python -m emailmopper triage
 ```
 
+<img width="2552" height="1436" alt="Screenshot 2026-09-19 170522" src="https://github.com/user-attachments/assets/2773a7bb-15ec-49d7-ba2f-82d3bb759a0b" />
+
+
 To delete messages with the configured review label, preview first:
 
 ```powershell
