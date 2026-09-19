@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emailmopper"
+version = "1.0.0"
+description = "Label-only Gmail email triage with local Ollama classification"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "ollama>=0.4",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+emailmopper = "emailmopper.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["emailmopper*"]

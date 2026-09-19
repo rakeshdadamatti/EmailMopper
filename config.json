@@ -1,0 +1,23 @@
+{
+    "TARGET_FOLDERS": ["INBOX"],
+    "STAGE_FOLDER": "Review_To_Delete",
+    "OLLAMA_MODEL": "qwen2.5:1.5b",
+    "USE_FALLBACK_MODEL": true,
+    "OLLAMA_FALLBACK_MODEL": "mistral",
+    "BATCH_SIZE": 5000,
+    "CLASSIFIER_WORKERS": 2,
+    "FETCH_CHUNK_SIZE": 50,
+    "WRITE_REPORTS": true,
+    "WHITELIST_COMPANIES": [
+        "renaissance", 
+        "first american", 
+        "ciber", 
+        "deloitte", 
+        "ramco", 
+        "firstam", 
+        "ascent", 
+        "incometax",
+        "gmail",
+        "rediffmail"
+    ]
+}
