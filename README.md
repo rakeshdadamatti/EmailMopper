@@ -106,10 +106,10 @@ Deletion requires the confirmation flag and typing `y` at the prompt:
 emailmopper delete --confirm-delete
 ```
 
-## Deletion feature is not tested yet. Avoid using it without doing a dry run.
-
 Triage never deletes messages. Reports are written to the `reports/` directory with UTC timestamps. `email_report.csv` also records classifier reasons and fallback-model attempts.
 PhonePe, Amazon Pay, Google Pay, and BHIM UPI transaction alerts are classified as `TRANSACTION` and labeled for review.
+
+**Note:** Deletion feature is not tested yet. Avoid using it without doing a dry run.
 
 ## Test
 
