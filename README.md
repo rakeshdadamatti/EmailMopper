@@ -37,6 +37,8 @@ If `python` is not the desired interpreter, use `py` instead.
 
 Create a `.env` file in the project directory:
 
+Note: You would require Gmail App Password
+
 ```text
 GMAIL_USER=your-address@gmail.com
 GMAIL_APP_PASSWORD=your-app-password
